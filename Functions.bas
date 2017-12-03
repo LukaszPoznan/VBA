@@ -1,10 +1,9 @@
-Attribute VB_Name = "GitHub_functions"
-Function labAdd(rowLabel As String, arr As Variant) As Integer
-
 '============================================================
 '= LABEL ADDRESS - RETURNS POSITION OF A STRING IN AN ARRAY =
 '= useful when a cell being referenced is dynamic           =
 '============================================================
+Attribute VB_Name = "GitHub_functions"
+Function labAdd(rowLabel As String, arr As Variant) As Integer
     
     Dim i As Integer
     'DEFAULT RETURN VALUE IF VALUE NOT FOUND IN ARRAY
@@ -17,11 +16,12 @@ Function labAdd(rowLabel As String, arr As Variant) As Integer
         End If
     Next
 End Function
-Function CellType(pRange As Range)
 
 '===============================
 '= RETUR A DATA TYPE IN A CELL =
 '===============================
+
+Function CellType(pRange As Range)
     
 Application.Volatile
 Set pRange = pRange.Range("A1")
@@ -35,12 +35,13 @@ Select Case True
     Case VBA.IsNumeric(pRange): CellType = "Value"
 End Select
 End Function
-Function GetURL(rng As Range) As String
 
 '=================================================
 '= RETURNS A URL OF A FIRST HYPERLINK IN A RANGE =
 '=================================================
-    
+
+Function GetURL(rng As Range) As String
+   
     On Error Resume Next
     GetURL = rng.Hyperlinks(1).address
 End Function
