@@ -1,6 +1,3 @@
-Attribute VB_Name = "GitHub_IMT_n"
-Sub databasePull()
-
 '==============================================================================================================================================
 '= MANIPULATES RAW DATA FROM MICROSOFT ACCESS. SANITIZED DUE TO CONFIDENTIALITY CONCERNS                                                      =
 '= SELECTED OF OPERATIONS:                                                                                                                    =
@@ -12,6 +9,7 @@ Sub databasePull()
 '= - basic operations such as deleting, moving, hiding, and inserting columns                                                                 =
 '==============================================================================================================================================
 
+Sub databasePull()
 'TRIMMING THE HEADER
     For i = 1 To 100
         Trim (Cells(6, i))
