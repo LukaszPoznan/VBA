@@ -1,4 +1,3 @@
-Attribute VB_Name = "GitHub_candidatesForm"
 '=============================================================================================================================================
 '= FORMATS DATA FROM AN EMAIL FORM INTO AN ACCESS FORM                                                                                       =
 '= SELECTED OPERATIONS:                                                                                                                      =
