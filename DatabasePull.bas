@@ -3,7 +3,7 @@ Sub databasePull()
 
 '==============================================================================================================================================
 '= MANIPULATES RAW DATA FROM MICROSOFT ACCESS. SANITIZED DUE TO CONFIDENTIALITY CONCERNS                                                      =
-'= SELECTED LIST OF OPERATIONS:                                                                                                               =
+'= SELECTED OF OPERATIONS:                                                                                                                    =
 '= - determines end of data range and number of actual records                                                                                =
 '= - creating arrays with header cells (trimmed) for easy reference using the custom Label Address function (please see the Fubctions module) =
 '= - loops and if statements                                                                                                                  =
