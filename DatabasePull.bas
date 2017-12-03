@@ -1,5 +1,5 @@
 Attribute VB_Name = "GitHub_IMT_n"
-Sub dataBasePull()
+Sub databasePull()
 
 '==============================================================================================================================================
 '= MANIPULATES RAW DATA FROM MICROSOFT ACCESS. SANITIZED DUE TO CONFIDENTIALITY CONCERNS                                                      =
